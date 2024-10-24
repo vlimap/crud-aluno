@@ -1,6 +1,6 @@
 const { alunos } = require("./alunos");
 
-function excluirAlunos(matricula) {
+function excluirAlunos(matricula) { 
     try {
         const indice = alunos.findIndex(elementodoarray =>
             elementodoarray.matricula === matricula
